@@ -1,0 +1,131 @@
+/* css/style.css */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f7f9;
+  color: #222;
+}
+
+header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff3c38;
+}
+
+main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.hero {
+  background-color: #ff3c38;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+}
+
+.programs ul,
+.schedule ul,
+.services ul,
+.products ul {
+  list-style: none;
+  padding: 0;
+}
+
+.programs li,
+.schedule li {
+  background-color: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 6px solid #ff3c38;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+form {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #ff3c38;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #e7322f;
+}
+
+.studio-location,
+.location {
+  margin-top: 2rem;
+  background-color: #fafafa;
+  padding: 1rem;
+  border-left: 4px solid #ff3c38;
+}
+
+footer {
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
